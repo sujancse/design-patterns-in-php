@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Poster;
+namespace Creational\AbstractFactory\Poster;
 
-use App\Connector\SocialNetworkConnector;
+
+use Creational\AbstractFactory\Connector\SocialNetworkConnector;
 
 abstract class SocialNetworkPoster
 {

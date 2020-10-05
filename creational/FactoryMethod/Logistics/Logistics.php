@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Logistics;
+namespace Creational\FactoryMethod\Logistics;
 
-use App\Transport\Transport;
+
+use Creational\FactoryMethod\Transport\Transport;
 
 abstract class Logistics
 {

@@ -1,14 +1,13 @@
 <?php
 
+namespace Creational\AbstractFactory\Connector;
 
-namespace App\Connector;
 
-
-class LinkedinConnector implements SocialNetworkConnector
+class FacebookConnector implements SocialNetworkConnector
 {
     public function login(): void
     {
-        echo "Linkedin Login" . PHP_EOL;
+        echo "Facebook Login" . PHP_EOL;
     }
 
     public function createPost(string $content): void
@@ -18,6 +17,6 @@ class LinkedinConnector implements SocialNetworkConnector
 
     public function logout(): void
     {
-        echo "Linkedin Logout" . PHP_EOL;
+        echo "Facebook Logout" . PHP_EOL;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Connector;
+namespace Creational\AbstractFactory\Connector;
 
 
 interface SocialNetworkConnector

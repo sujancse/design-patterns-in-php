@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Transport;
+namespace Creational\FactoryMethod\Transport;
 
 
 interface Transport

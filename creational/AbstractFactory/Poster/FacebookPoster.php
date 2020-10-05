@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Poster;
+namespace Creational\AbstractFactory\Poster;
 
-use App\Connector\FacebookConnector;
-use App\Connector\SocialNetworkConnector;
 
+use Creational\AbstractFactory\Connector\SocialNetworkConnector;
+use Creational\AbstractFactory\Connector\FacebookConnector;
 
 class FacebookPoster extends SocialNetworkPoster
 {

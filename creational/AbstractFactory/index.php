@@ -1,8 +1,8 @@
 <?php
 
-use App\Poster\FacebookPoster;
-use App\Poster\LinkedinPoster;
-use App\Poster\SocialNetworkPoster;
+use Creational\AbstractFactory\Poster\FacebookPoster;
+use Creational\AbstractFactory\Poster\LinkedinPoster;
+use Creational\AbstractFactory\Poster\SocialNetworkPoster;
 
 require_once 'vendor/autoload.php';
 

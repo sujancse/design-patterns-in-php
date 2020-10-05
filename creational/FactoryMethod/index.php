@@ -1,7 +1,8 @@
 <?php
 
-use App\Logistics\Logistics;
-use App\Logistics\RoadLogistics;
+
+use Creational\FactoryMethod\Logistics\Logistics;
+use Creational\FactoryMethod\Logistics\RoadLogistics;
 
 require_once 'vendor/autoload.php';
 

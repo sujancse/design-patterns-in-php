@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Transport;
+namespace Creational\FactoryMethod\Transport;
 
 
 class Road implements Transport
